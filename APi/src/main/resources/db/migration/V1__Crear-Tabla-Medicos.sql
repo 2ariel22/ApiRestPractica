@@ -1,0 +1,12 @@
+CREATE TABLE medicos (
+  `Id` BIGINT NOT NULL AUTO_INCREMENT,
+  `Nombre` VARCHAR(150) NOT NULL,
+  `Email` VARCHAR(100) NOT NULL,
+  `Documento` VARCHAR(100) NOT NULL,
+  `Especialida` VARCHAR(100) NOT NULL,
+  `Calle` VARCHAR(100) NOT NULL,
+  `Distrito` VARCHAR(100) NOT NULL,
+  `Ciudad` VARCHAR(100) NOT NULL,
+  `Numero` VARCHAR(45) NOT NULL,
+  `Complemento` VARCHAR(100) NOT NULL,
+  PRIMARY KEY (`Id`));
