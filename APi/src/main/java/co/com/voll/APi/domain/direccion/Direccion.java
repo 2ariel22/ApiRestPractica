@@ -1,4 +1,4 @@
-package co.com.voll.APi.direccion;
+package co.com.voll.APi.domain.direccion;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
@@ -17,6 +17,14 @@ public class Direccion {
     private String Complemento;
 
     public Direccion(DatosDireccion direccion) {
+        this.Calle = direccion.Calle();
+        this.Distrito = direccion.Distrito();
+        this.Ciudad = direccion.Ciudad();
+        this.Numero = direccion.Numero();
+        this.Complemento = direccion.Complemento();
+    }
+
+    public void ActualizarDatos(DatosDireccion direccion) {
         this.Calle = direccion.Calle();
         this.Distrito = direccion.Distrito();
         this.Ciudad = direccion.Ciudad();

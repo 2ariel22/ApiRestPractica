@@ -1,4 +1,4 @@
-package co.com.voll.APi.direccion;
+package co.com.voll.APi.domain.direccion;
 
 import jakarta.validation.constraints.NotBlank;
 

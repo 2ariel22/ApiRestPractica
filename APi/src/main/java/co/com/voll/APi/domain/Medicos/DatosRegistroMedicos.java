@@ -1,6 +1,6 @@
-package co.com.voll.APi.Medicos;
+package co.com.voll.APi.domain.Medicos;
 
-import co.com.voll.APi.direccion.DatosDireccion;
+import co.com.voll.APi.domain.direccion.DatosDireccion;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

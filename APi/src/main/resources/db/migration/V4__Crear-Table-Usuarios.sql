@@ -1,0 +1,6 @@
+CREATE TABLE usuarios (
+  `id` BIGINT NOT NULL AUTO_INCREMENT,
+  `user` VARCHAR(150) NOT NULL,
+  `pass` VARCHAR(400) NOT NULL,
+
+  PRIMARY KEY (`Id`));
